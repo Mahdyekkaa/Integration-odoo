@@ -63,3 +63,13 @@ partner_search_unlink = models.execute_kw(db, uid, password, 'doctor_doctor', 's
                                     [[['name', '=', 'mahdy']]])
 
 models.execute_kw(db, uid, password, 'doctor_doctor', 'unlink', [partner_search_unlink])
+
+
+# Many2one fields
+# product_id = fields.Many2one('product.template', 'Product')
+# One2many fields
+# field_ids  = fields.One2many(‘comodel.name’,’inverse_name’, ‘Field Name’)
+# Man2many fields
+# field_ids  = fields.Many2many(‘comodel.name’, string=‘Field Name’)
+
+
